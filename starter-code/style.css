@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.our-greyscale {
+    filter: grayscale(1);
+}
+
+.our-overlay {
+    background-image: url("/starter-code/img/overlay.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+.ourOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* .btn-outline-light {
+    transition: none;
+} */
+
+/* #container-black { 
+    max-width: 300px !important;
+    height: 200px;
+    background-color: black
+} */
